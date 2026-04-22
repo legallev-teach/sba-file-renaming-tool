@@ -1,5 +1,5 @@
 # SBA File Renamer
-**Caribbean Union College Secondary — May/June 2026 CSEC Examinations**
+**Caribbean Union College Secondary — May/June CSEC Examinations**
 
 Renames SBA PDF files to the exact format required by CXC's Online Registration System (ORS).
 
