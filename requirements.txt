@@ -1,0 +1,17 @@
+# SBA File Renamer — Python dependencies
+#
+# Install with: pip install -r requirements.txt
+#
+# Tesseract OCR binary is NOT a Python package.
+# See README.md for installation instructions if you need OCR support.
+
+# Core PDF text extraction
+pypdf>=4.0.0
+
+# Excel file reading (lightweight, replaces pandas)
+openpyxl>=3.1.0
+
+# OCR support — only needed for image-based (scanned) PDFs
+# Both packages are optional; the app degrades gracefully without Tesseract installed.
+pdf2image>=1.17.0
+pytesseract>=0.3.10
